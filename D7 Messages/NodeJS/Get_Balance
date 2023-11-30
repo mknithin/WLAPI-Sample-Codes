@@ -2,7 +2,7 @@ var axios = require('axios');
 
 var config = {
   method: 'get',
-  url: 'https://api.d7networks.com/messages/v1/balance',
+  url: 'https://smsapi.dcxn.design/messages/v1/balance',
   headers: { 
     'Accept': 'application/json', 
     'Authorization': 'Bearer {{api_access_token}}'

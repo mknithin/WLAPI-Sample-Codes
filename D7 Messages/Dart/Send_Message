@@ -3,7 +3,7 @@ var headers = {
   'Accept': 'application/json',
   'Authorization': 'Bearer {{api_access_token}}'
 };
-var request = http.Request('POST', Uri.parse('https://api.d7networks.com/messages/v1/send'));
+var request = http.Request('POST', Uri.parse('https://smsapi.dcxn.design/messages/v1/send'));
 request.body = json.encode({
   "messages": [
     {

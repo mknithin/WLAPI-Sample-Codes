@@ -1,7 +1,7 @@
 require "uri"
 require "net/http"
 
-url = URI("https://api.d7networks.com/messages/v1/balance")
+url = URI("https://smsapi.dcxn.design/messages/v1/balance")
 
 https = Net::HTTP.new(url.host, url.port)
 https.use_ssl = true

@@ -1,5 +1,5 @@
 var settings = {
-  "url": "https://api.d7networks.com/messages/v1/send",
+  "url": "https://smsapi.dcxn.design/messages/v1/send",
   "method": "POST",
   "timeout": 0,
   "headers": {

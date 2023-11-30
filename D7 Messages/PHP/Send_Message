@@ -22,7 +22,7 @@
         ) 
     );
     curl_setopt_array($curl, array(
-    CURLOPT_URL => 'https://api.d7networks.com/messages/v1/send',
+    CURLOPT_URL => 'https://smsapi.dcxn.design/messages/v1/send',
     CURLOPT_RETURNTRANSFER => true,
     CURLOPT_ENCODING => '',
     CURLOPT_MAXREDIRS => 10,

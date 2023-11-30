@@ -1,6 +1,6 @@
 import requests
 
-url = "https://api.d7networks.com/messages/v1/balance"
+url = "https://smsapi.dcxn.design/messages/v1/balance"
 
 payload={}
 headers = {

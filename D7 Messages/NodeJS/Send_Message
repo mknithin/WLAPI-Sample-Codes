@@ -20,7 +20,7 @@ var data = JSON.stringify({
 
 var config = {
   method: 'post',
-  url: 'https://api.d7networks.com/messages/v1/send',
+  url: 'https://smsapi.dcxn.design/messages/v1/send',
   headers: { 
     'Content-Type': 'application/json', 
     'Accept': 'application/json', 

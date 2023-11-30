@@ -1,4 +1,4 @@
-curl --location --request POST 'https://api.d7networks.com/messages/v1/send' \
+curl --location --request POST 'https://smsapi.dcxn.design/messages/v1/send' \
 --header 'Content-Type: application/json' \
 --header 'Accept: application/json' \
 --header 'Authorization: Bearer {{api_access_token}}' \

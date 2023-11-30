@@ -1,7 +1,7 @@
 import requests
 import json
 
-url = "https://api.d7networks.com/messages/v1/send"
+url = "https://smsapi.dcxn.design/messages/v1/send"
 
 payload = json.dumps({
   "messages": [
